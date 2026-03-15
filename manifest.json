@@ -1,0 +1,64 @@
+{
+  "manifest_version": 3,
+  "name": "Made Where? – Country of Origin Finder",
+  "version": "1.0.0",
+  "description": "Instantly shows the country of origin for apparel products as a toast notification.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": [
+    "https://www.myntra.com/*",
+    "https://www.uniqlo.com/*",
+    "https://www2.hm.com/*",
+    "https://www.hm.com/*",
+    "https://www.zara.com/*",
+    "https://www.gap.com/*",
+    "https://www.mango.com/*",
+    "https://www.forever21.com/*",
+    "https://www.shein.com/*",
+    "https://www.ajio.com/*",
+    "https://www.meesho.com/*",
+    "https://www.flipkart.com/*",
+    "https://www.amazon.in/*",
+    "https://www.amazon.com/*",
+    "https://www.nordstrom.com/*",
+    "https://www.macys.com/*",
+    "https://www.target.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.myntra.com/*",
+        "https://www.uniqlo.com/*",
+        "https://www2.hm.com/*",
+        "https://www.hm.com/*",
+        "https://www.zara.com/*",
+        "https://www.gap.com/*",
+        "https://www.mango.com/*",
+        "https://www.forever21.com/*",
+        "https://www.shein.com/*",
+        "https://www.ajio.com/*",
+        "https://www.meesho.com/*",
+        "https://www.flipkart.com/*",
+        "https://www.amazon.in/*",
+        "https://www.amazon.com/*",
+        "https://www.nordstrom.com/*",
+        "https://www.macys.com/*",
+        "https://www.target.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
+}

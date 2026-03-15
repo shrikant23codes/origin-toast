@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Made Where?</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      width: 240px;
+      background: #0f0f0f;
+      color: #fff;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      padding: 20px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+
+    .logo-icon {
+      font-size: 22px;
+    }
+
+    .logo-text {
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .logo-text span {
+      color: rgba(255,255,255,0.35);
+      font-weight: 400;
+    }
+
+    .divider {
+      height: 1px;
+      background: rgba(255,255,255,0.08);
+      margin-bottom: 14px;
+    }
+
+    .status {
+      font-size: 11px;
+      color: rgba(255,255,255,0.4);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .status strong {
+      color: rgba(255,255,255,0.7);
+      font-weight: 600;
+    }
+
+    .supported {
+      font-size: 10px;
+      color: rgba(255,255,255,0.25);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .sites {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    .site-pill {
+      font-size: 10px;
+      background: rgba(255,255,255,0.07);
+      color: rgba(255,255,255,0.45);
+      padding: 3px 7px;
+      border-radius: 20px;
+      border: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .footer {
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      font-size: 10px;
+      color: rgba(255,255,255,0.2);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <div class="logo-icon">🌍</div>
+    <div class="logo-text">Made Where<span>?</span></div>
+  </div>
+  <div class="divider"></div>
+  <p class="status">
+    Automatically detects <strong>Country of Origin</strong> on product pages and shows it as a toast notification.
+  </p>
+  <div class="supported">Supported Sites</div>
+  <div class="sites">
+    <span class="site-pill">Myntra</span>
+    <span class="site-pill">Uniqlo</span>
+    <span class="site-pill">H&M</span>
+    <span class="site-pill">Zara</span>
+    <span class="site-pill">Amazon</span>
+    <span class="site-pill">Flipkart</span>
+    <span class="site-pill">AJIO</span>
+    <span class="site-pill">SHEIN</span>
+    <span class="site-pill">Mango</span>
+    <span class="site-pill">Gap</span>
+    <span class="site-pill">Meesho</span>
+    <span class="site-pill">+ more</span>
+  </div>
+  <div class="footer">Just open any product page — it's automatic ✦</div>
+</body>
+</html>

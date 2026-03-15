@@ -2,6 +2,12 @@
 
 Instantly see where your clothes are made while shopping online. This Chrome extension scans apparel product pages on popular e‑commerce sites and shows a small toast with the detected country of origin (with a flag) so you don’t have to dig through product details.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2fea34f5-7ff1-4501-b403-455dc015890d" alt="Alt text" width="400"/>
+</p>
+![country-toast]()
+
+
 ## Features
 - Detects country of origin from product descriptions and details
 - Displays a subtle toast notification with the country name and flag

@@ -25,7 +25,7 @@ const COUNTRY_FLAGS = {
   "Uzbekistan": "🇺🇿", "Vietnam": "🇻🇳", "Yemen": "🇾🇪", "Zimbabwe": "🇿🇼"
 };
 
-const DEBUG = true;
+const DEBUG = false;
 
 function debugLog(...args) {
   if (!DEBUG) return;
